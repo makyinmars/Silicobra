@@ -1,5 +1,6 @@
 {
-  "name": "resume-builder",
+  "name": "Sprix",
+  "description": "Sprix is a resume builder based on a template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
