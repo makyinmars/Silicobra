@@ -4,6 +4,14 @@ Sprix is a resume builder based on one of my favorite resume templates from over
 
 I plan to eventually add more resumes templates once the basics of the project are completed.
 
+### Toolkit
+- Nextjs
+- TypeScript -> Better for development
+- Tailwindcss -> Styling
+- useState -> This might chance to redux toolkit if state management is needed.
+- reac-hook-form -> Form
+- react-pdf -> Pdf manipulation
+
 ### Design
 This is a rough solution/desing. Once the project has started. I will update with new styles.
 
