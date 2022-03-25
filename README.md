@@ -8,7 +8,7 @@ I plan to eventually add more resumes templates once the basics of the project a
 - Nextjs
 - TypeScript -> Better for development
 - Tailwindcss -> Styling
-- useState -> This might chance to redux toolkit if state management is needed.
+- useState -> This might change to redux toolkit if state management is needed.
 - reac-hook-form -> Form
 - react-pdf -> Pdf manipulation
 

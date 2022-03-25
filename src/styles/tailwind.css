@@ -8,4 +8,8 @@ body {
   @apply bg-teal-700;
 }
 
-@layer components{}
+@layer components{
+  .icons {
+    @apply w-8 h-8 font-thin;
+  }
+}
