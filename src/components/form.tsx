@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react"
+import { useForm, SubmitHandler } from "react-hook-form"
 
-const Form = () => {
-  return (
-    <div>
-      Hello from Form
-    </div>
-  )
+interface PreviewForm  {
+
 }
 
-export default Form;
+const Form = () => {
+  return <div>Hello from Form</div>
+}
+
+export default Form
