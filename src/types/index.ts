@@ -42,3 +42,11 @@ export interface TechnicalSkills {
   developerTools: string
   libraries: string
 }
+
+export interface Resume {
+  userInfo: UserInfo
+  education: Education
+  experience: Experience
+  projects: Projects
+  technicalSkills: TechnicalSkills
+}
