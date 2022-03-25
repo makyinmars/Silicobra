@@ -16,3 +16,10 @@ This is a rough solution/desing. Once the project has started. I will update wit
 More templates will be added once the basic needs/styles for the project has finished.
 
 ![Resume Template](https://github.com/makyfj/Sprix/blob/main/assets/Jake-template.png?raw=true)
+
+
+## CONTRIBUTE
+
+Looking to contribute to this project?
+
+Check [CONTRIBUTE.md](https://github.com/makyfj/Sprix/blob/main/CONTRIBUTE.md)
