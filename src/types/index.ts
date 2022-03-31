@@ -11,8 +11,8 @@ export interface Education {
   university: string
   major: string
   city: string
-  started: string
-  ended: string
+  from: string
+  to: string
 }
 
 export interface BulletsInfo {
@@ -31,8 +31,8 @@ export interface Experience {
 export interface Projects {
   name: string
   tools: string
-  started: string
-  ended: string
+  from: string
+  to: string
   bullets: BulletsInfo
 }
 
