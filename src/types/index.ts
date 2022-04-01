@@ -22,8 +22,8 @@ export interface BulletsInfo {
 export interface Experience {
   title: string
   company: string
-  started: string
-  ended: string
+  from: string
+  to: string
   city: string
   bullets: BulletsInfo
 }
