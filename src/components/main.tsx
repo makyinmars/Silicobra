@@ -13,14 +13,14 @@ const Main = () => {
           content="Sprix is a resume builder based on templates for software engineer / computer science positions."
         />
       </Head>
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="font-extrabold text-3xl">Welcome to Sprix!</h1>
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-3xl font-extrabold">Welcome to Sprix!</h1>
         <p className="p-4 text-lg">
           Sprix is a resume builder based on templates for software engineer /
           computer science positions.
         </p>
       </div>
-      <div className="flex justify-evenly">
+      <div className="flex flex-col items-center justify-center lg:flex-row md:justify-evenly">
         <Form />
         <Preview />
       </div>
