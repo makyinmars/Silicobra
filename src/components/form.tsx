@@ -2,7 +2,7 @@ import React from "react"
 import { useForm, SubmitHandler } from "react-hook-form"
 import { FcBusinessman } from "react-icons/fc"
 
-import { Resume } from "@/types"
+import { Resume, BulletsInfo } from "@/types"
 
 const Form = () => {
   const {
@@ -14,6 +14,7 @@ const Form = () => {
 
   const onSubmit: SubmitHandler<Resume> = (data) => console.log(data)
   console.log(watch)
+
   return (
     <div className="w-8/12 p-4 rounded-md lg:w-5/12 bg-slate-300 text-form">
       <form
@@ -187,7 +188,7 @@ const Form = () => {
             )}
 
             <label htmlFor="started" className="center-label">
-              From:
+              From
             </label>
             <input
               type="text"
@@ -204,7 +205,7 @@ const Form = () => {
             )}
 
             <label htmlFor="to" className="center-label">
-              To:
+              To
             </label>
             <input
               type="text"
@@ -228,7 +229,7 @@ const Form = () => {
           </div>
           <div className="grid grid-cols-1 gap-2 lg:grid-cols-2">
             <label htmlFor="title" className="center-label">
-              Title:
+              Title
             </label>
             <input
               type="text"
@@ -244,7 +245,7 @@ const Form = () => {
               </span>
             )}
             <label htmlFor="company" className="center-label">
-              Company:
+              Company
             </label>
             <input
               type="text"
@@ -260,7 +261,7 @@ const Form = () => {
               </span>
             )}
             <label htmlFor="from" className="center-label">
-              From:
+              From
             </label>
             <input
               type="text"
@@ -277,7 +278,7 @@ const Form = () => {
             )}
 
             <label htmlFor="to" className="center-label">
-              To:
+              To
             </label>
             <input
               type="text"
@@ -292,7 +293,7 @@ const Form = () => {
             )}
 
             <label htmlFor="city" className="center-label">
-              City:
+              City
             </label>
             <input
               type="text"
@@ -307,6 +308,18 @@ const Form = () => {
                 {errors.experience.city.message}
               </span>
             )}
+            {/* This has to be dynamic and accept 1 or 3 bullets per experience */}
+            <label htmlFor="bulletInfo" className="center-label">
+              Bullets Info
+            </label>
+            <input
+              type="text"
+              id="bulletInfo"
+              {...register("experience.bullets.bullets.0", {
+                required: "The city field is required",
+              })}
+              className="form-input field-form"
+            />
           </div>
         </div>
       </form>
