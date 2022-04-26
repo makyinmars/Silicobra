@@ -34,6 +34,10 @@ Hack around the app, it is the better way to get familiar with any project.
 
 ## How to contribute
 
+Go to develop branch and create a new branch 
+
+`git checkout develop`
+
 Create a branch for any feature/task/bug
 
 Examples:
