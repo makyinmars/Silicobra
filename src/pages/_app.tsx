@@ -5,13 +5,11 @@ import MyDocument from "./pdf"
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <>
-      <Component {...pageProps}>
-        <PDFViewer>
-          <MyDocument />
-        </PDFViewer>
-      </Component>
-    </>
+    <Component {...pageProps}>
+      <PDFViewer>
+        <MyDocument />
+      </PDFViewer>
+    </Component>
   )
 }
 
