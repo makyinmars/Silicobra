@@ -2,22 +2,22 @@
 
 This is a rough solution/design. Once the project has started. I will update with new styles.
 
-![Desktop](https://github.com/makyfj/Silicobra/blob/develop/src/assets/design-desktop.png?raw=true)
+![Desktop](https://github.com/makyfj/Silicobra/blob/main/src/assets/design-desktop.png?raw=true)
 
-![Mobile](https://github.com/makyfj/Silicobra/blob/develop/src/assets/design-mobile.png?raw=true)
+![Mobile](https://github.com/makyfj/Silicobra/blob/main/src/assets/design-mobile.png?raw=true)
 
 
 ### Project based on this template
 More templates will be added once the basic needs/styles for the project has finished.
 
-![Resume Template](https://github.com/makyfj/Silicobra/blob/develop/src/assets/Jake-template.png?raw=true)
+![Resume Template](https://github.com/makyfj/Silicobra/blob/main/src/assets/Jake-template.png?raw=true)
 
 
 ## CONTRIBUTE
 
 Looking to contribute to this project?
 
-Check [CONTRIBUTE.md](https://github.com/makyfj/Silicobra/blob/develop/CONTRIBUTE.md)
+Check [CONTRIBUTE.md](https://github.com/makyfj/Silicobra/blob/main/CONTRIBUTE.md)
 
 # Create T3 App
 
